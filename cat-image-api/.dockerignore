@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules
+
+# Build output (if not needed in the image)
+dist
+
+# Local development files
+*.log
+*.env
+.DS_Store
+
+# Git-related files
+.git
+.gitignore

@@ -1,0 +1,31 @@
+{
+  "name": "cat-image-api",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+ "scripts": {
+  "start": "node dist/app.js",
+  "build": "tsc && npm run copy-assets",
+  "copy-assets": "cp -r src/data dist/data"
+},
+  "keywords": [
+    "api",
+    "placeholder",
+    "cat",
+    "images"
+  ],
+  "author": "Ram Nurani Subramanyam",
+  "license": "ISC",
+  "description": "A Cat Image API to dynamically resize and serve images.",
+  "dependencies": {
+    "express": "^4.21.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
