@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50; /* Increased contrast for text */
+    background-color: #f8f9fa; /* Light grey for better contrast */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1b1f23; /* Darker color for better contrast */
+}
+
+.header__subtitle {
+    font-size: 1.2rem;
+    color: #5a5a5a; /* Darker grey for better contrast */
+}
+
+/* Main Section Styling */
+.main {
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.usage-section {
+    text-align: center;
+}
+
+.usage-section__heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1b1f23; /* Darker text for improved contrast */
+}
+
+.usage-section__code {
+    background: #e9ecef; /* Slightly darker background */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    color: #212529; /* Dark text for better contrast */
+    overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+/* Updated Link Styling for Better Contrast */
+.usage-section__link {
+    color: #0056b3; /* Darker blue for higher contrast */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.usage-section__link:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #495057; /* Accessible grey for footer text */
+    text-align: center;
+}
+
+.footer__text {
+    margin-top: 10px;
+}
+
+/* --------------------------------------
+   Responsive Media Queries
+-------------------------------------- */
+
+/* Mobile View: Screens smaller than 768px */
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 2rem;
+    }
+
+    .header__subtitle {
+        font-size: 1rem;
+    }
+
+    .main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .usage-section__heading {
+        font-size: 1.5rem;
+    }
+
+    .usage-section__code {
+        font-size: 0.9rem;
+    }
+
+    .footer__text {
+        font-size: 0.8rem;
+    }
+}
+
+/* Tablet View: Screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header__title {
+        font-size: 2.2rem;
+    }
+
+    .main {
+        width: 80%;
+    }
+
+    .usage-section__heading {
+        font-size: 1.6rem;
+    }
+}
+
+/* Large Screens: Screens larger than 1200px */
+@media (min-width: 1200px) {
+    .header__title {
+        font-size: 3rem;
+    }
+
+    .main {
+        width: 70%;
+    }
+
+    .footer__text {
+        font-size: 1rem;
+    }
+}

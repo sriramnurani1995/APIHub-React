@@ -33,7 +33,7 @@ WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/dist ./dist
 COPY --from=builder /usr/src/app/node_modules ./node_modules
 COPY --from=builder /usr/src/app/src/data ./src/data
-
+COPY --from=builder /usr/src/app/public ./public
 # Expose the application port
 EXPOSE 3000
 

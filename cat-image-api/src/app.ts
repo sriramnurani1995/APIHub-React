@@ -1,11 +1,14 @@
 import express, { Request, Response } from "express";
 import { readdir } from "fs/promises";
-import { join } from "path";
+import { join }  from "path";
 import sharp from "sharp";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 const IMAGE_DIR = join(__dirname, "data", "cat-images");
+
+// Serve static files from the "public" folder (for the landing page)
+app.use(express.static(join(__dirname, '../public')));
 
 // Define route parameters explicitly
 interface Params {
@@ -41,7 +44,10 @@ app.get("/api/cats/:width/:height", async (req: Request<Params>, res: Response) 
     res.status(500).json({ error: "Failed to process the image" });
   }
 });
-
+// Fallback: Serve the landing page for the `/` route
+app.get('/', (req, res) => {
+    res.sendFile(join(__dirname, '../public/index.html'));
+});
 app.listen(PORT, () => {
   console.log("Server started successfully.");
 });
