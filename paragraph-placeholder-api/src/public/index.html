@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Placeholder API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Paragraph Placeholder API</h1>
+        <p class="header__subtitle">Generate dynamic placeholder paragraphs for your projects.</p>
+    </header>
+
+    <main class="main container">
+        <!-- Usage Section -->
+        <section class="usage-section">
+            <h2 class="usage-section__heading">API Usage</h2>
+            <p>Use the following endpoint to generate paragraphs:</p>
+            <code class="usage-section__code">GET /api/paragraphs?type=&length=&count=</code>
+            <h3 class="usage-section__example-heading">Example</h3>
+            <a class="usage-section__link" href="/api/paragraphs?type=cat&length=medium&count=3" target="_blank">
+                /api/paragraphs?type=cat&length=medium&count=3
+            </a>
+        </section>
+
+        <!-- Parameters Section -->
+        <section class="parameters-section">
+            <h2 class="parameters-section__heading">Parameters</h2>
+            <p>Below is a detailed explanation of the API parameters:</p>
+            <table class="parameters-table">
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Description</th>
+                        <th>Accepted Values</th>
+                        <th>Default</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>type</code></td>
+                        <td>The type of placeholder text to generate.</td>
+                        <td>
+                            <code>lorem</code>, <code>cat</code>, <code>pup</code>, 
+                            <code>business</code>, <code>tech</code>, <code>hipster</code>
+                        </td>
+                        <td><code>lorem</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>length</code></td>
+                        <td>The length of the paragraphs.</td>
+                        <td><code>short</code>, <code>medium</code>, <code>long</code></td>
+                        <td><code>medium</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>count</code></td>
+                        <td>The number of paragraphs to generate.</td>
+                        <td><code>1</code> to <code>10</code></td>
+                        <td><code>1</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Paragraph Placeholder API - Placeholder Text for Developers.</p>
+    </footer>
+</body>
+</html>
