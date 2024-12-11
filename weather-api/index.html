@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Forecast API</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Weather Forecast API</h1>
+        <p>This API provides weather data either for a given <strong>date</strong> or for an entire <strong>month</strong>. You can request weather data by providing the date in the format <code>YYYY-MM-DD</code>, or a month in the format <code>YYYY-MM</code>.</p>
+    </header>
+
+    <section>
+        <h2>How to Use the Weather API</h2>
+        <p>Use the following parameters to query the weather data:</p>
+
+        <table class="api-parameters-table">
+            <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Expected Value</th>
+                    <th>Default Behavior</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>date</code></td>
+                    <td>YYYY-MM-DD (e.g., 2024-12-08)</td>
+                    <td><strong>Current Date</strong> (if no date is provided)</td>
+                </tr>
+                <tr>
+                    <td><code>month</code></td>
+                    <td>YYYY-MM (e.g., 2024-12)</td>
+                    <td><strong>Current Month</strong> (if no month is provided)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>If you don't provide a date or month, the API will return the weather for the current date or month.</p>
+    </section>
+
+    <section>
+        <h2>Example Request</h2>
+        <pre>
+            GET /api/weather?date=2024-12-08
+        </pre>
+        <pre>
+            GET /api/weather?month=2024-12
+        </pre>
+        <p>These will return the weather conditions for the given <strong>date</strong> or <strong>month</strong>.</p>
+    </section>
+
+    <footer>
+        <p>Weather Forecast API by <a href="https://www.example.com" target="_blank">Your Name</a></p>
+        <p><a href="/docs">API Documentation</a></p>
+    </footer>
+</body>
+</html>

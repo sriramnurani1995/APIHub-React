@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Set the target to ES6 or higher
+    "module": "commonjs",                      // CommonJS module system for Node.js
+    "moduleResolution": "node",                // Use Node module resolution strategy
+    "outDir": "./dist",                        // Output directory for compiled files
+    "rootDir": "./src",                        // Root directory for source files
+    "esModuleInterop": true,                   // To enable `import` syntax compatibility
+    "skipLibCheck": true,                      // Skip library checking for faster builds
+    "forceConsistentCasingInFileNames": true   // Ensure consistent casing in filenames
+  },
+  "include": [
+    "src/**/*.ts"                              // Include all TypeScript files in the `src` folder
+  ],
+  "exclude": [
+    "node_modules"                             // Exclude the `node_modules` folder
+  ]
+}
+
