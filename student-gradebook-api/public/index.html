@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Gradebook API</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Student Gradebook API</h1>
+    <p>A scalable and lightweight API for managing and retrieving student grades.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        This API provides two primary endpoints to retrieve information about course gradebooks:
+        <strong>header</strong> information and a complete gradebook breakdown for each course.
+      </p>
+    </section>
+    <section>
+      <h2>API Endpoints</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Endpoint</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GET <code>/api/header/:courseId</code></td>
+            <td>Retrieves the header information, including the components and type weightage for a course.</td>
+            <td>GET <a href="/api/header/CS500">/api/header/CS500</a></td>
+          </tr>
+          <tr>
+            <td>GET <code>/api/gradebook/:courseId</code></td>
+            <td>
+              Retrieves the complete gradebook for a course, including individual student performance,
+              weighted percentages, and final grades.
+            </td>
+            <td>GET <a href="/api/gradebook/CS500">/api/gradebook/CS500</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Examples</h2>
+      <h3>Request</h3>
+      <pre><code>GET /api/gradebook/CS500</code></pre>
+      <h3>Response</h3>
+      <pre><code>
+{
+  "courseId": "CS500",
+  "gradebook": [
+    {
+      "studentId": "1001",
+      "name": "John Doe",
+      "components": [
+        {
+          "type": "Homework",
+          "component": "HW1",
+          "marks": 80,
+          "totalMarks": 100
+        },
+        {
+          "type": "Final Exam",
+          "component": "Final",
+          "marks": 90,
+          "totalMarks": 100
+        }
+      ],
+      "typePercentages": {
+        "Homework": 80,
+        "Final Exam": 90
+      },
+      "weightedPercentages": {
+        "Homework": 32,
+        "Final Exam": 36
+      },
+      "finalPercentage": 68,
+      "finalGrade": "C"
+    }
+  ]
+}
+      </code></pre>
+    </section>
+  </main>
+  <footer>
+    © 2024 Student Gradebook API. All rights reserved.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1171 @@
+{
+  "courses": [
+    {
+      "courseId": "CS500",
+      "weightage": {
+        "Homework": 40,
+        "Discussions": 30,
+        "FinalExam": 30
+      },
+      "components": {
+        "Homework": 100,
+        "Discussions": 25,
+        "FinalExam": 100
+      },
+      "students": [
+        {
+          "studentId": "1001",
+          "name": "Alice Johnson",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 90,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 86,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 8,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 18,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 87,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 86,
+            "Discussions": 72,
+            "FinalExam": 87
+          },
+          "weightedPercentages": {
+            "Homework": 34.4,
+            "Discussions": 21.6,
+            "FinalExam": 26.1
+          },
+          "finalPercentage": 127.7,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "1002",
+          "name": "Bob Smith",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 68,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 18,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 2,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 6,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 43,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 18,
+            "Discussions": 24,
+            "FinalExam": 43
+          },
+          "weightedPercentages": {
+            "Homework": 7.2,
+            "Discussions": 7.2,
+            "FinalExam": 12.9
+          },
+          "finalPercentage": 56.9,
+          "finalGrade": "F"
+        },
+        {
+          "studentId": "1003",
+          "name": "Carol Brown",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 5,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 45,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 8,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 5,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 11,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 45,
+            "Discussions": 20,
+            "FinalExam": 11
+          },
+          "weightedPercentages": {
+            "Homework": 18,
+            "Discussions": 6,
+            "FinalExam": 3.3
+          },
+          "finalPercentage": 38.9,
+          "finalGrade": "F"
+        },
+        {
+          "studentId": "1004",
+          "name": "David Wilson",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 29,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 16,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 8,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 24,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 19,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 16,
+            "Discussions": 96,
+            "FinalExam": 19
+          },
+          "weightedPercentages": {
+            "Homework": 6.4,
+            "Discussions": 28.8,
+            "FinalExam": 5.7
+          },
+          "finalPercentage": 62.1,
+          "finalGrade": "D"
+        },
+        {
+          "studentId": "1005",
+          "name": "Emma Davis",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 17,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 3,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 5,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 2,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 24,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 3,
+            "Discussions": 8,
+            "FinalExam": 24
+          },
+          "weightedPercentages": {
+            "Homework": 1.2,
+            "Discussions": 2.4,
+            "FinalExam": 7.2
+          },
+          "finalPercentage": 23.6,
+          "finalGrade": "F"
+        },
+        {
+          "studentId": "1006",
+          "name": "Frank Moore",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 92,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 13,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 20,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 19,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 28,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 13,
+            "Discussions": 76,
+            "FinalExam": 28.000000000000004
+          },
+          "weightedPercentages": {
+            "Homework": 5.2,
+            "Discussions": 22.8,
+            "FinalExam": 8.4
+          },
+          "finalPercentage": 97.2,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "1007",
+          "name": "Grace White",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 1,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 30,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 23,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 13,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 57,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 30,
+            "Discussions": 52,
+            "FinalExam": 56.99999999999999
+          },
+          "weightedPercentages": {
+            "Homework": 12,
+            "Discussions": 15.6,
+            "FinalExam": 17.099999999999998
+          },
+          "finalPercentage": 72.7,
+          "finalGrade": "C"
+        },
+        {
+          "studentId": "1008",
+          "name": "Henry Taylor",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 72,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 24,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 14,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 1,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 92,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 24,
+            "Discussions": 4,
+            "FinalExam": 92
+          },
+          "weightedPercentages": {
+            "Homework": 9.6,
+            "Discussions": 1.2,
+            "FinalExam": 27.6
+          },
+          "finalPercentage": 84,
+          "finalGrade": "B"
+        },
+        {
+          "studentId": "1009",
+          "name": "Ivy Harris",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 37,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 32,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 10,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 13,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 21,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 32,
+            "Discussions": 52,
+            "FinalExam": 21
+          },
+          "weightedPercentages": {
+            "Homework": 12.8,
+            "Discussions": 15.6,
+            "FinalExam": 6.3
+          },
+          "finalPercentage": 61.5,
+          "finalGrade": "D"
+        },
+        {
+          "studentId": "10010",
+          "name": "Jack Martin",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 73,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 11,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 16,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 11,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 40,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 11,
+            "Discussions": 44,
+            "FinalExam": 40
+          },
+          "weightedPercentages": {
+            "Homework": 4.4,
+            "Discussions": 13.2,
+            "FinalExam": 12
+          },
+          "finalPercentage": 78,
+          "finalGrade": "C"
+        },
+        {
+          "studentId": "10011",
+          "name": "Linda Clark",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 99,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 5,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 0,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 14,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 58,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 5,
+            "Discussions": 56.00000000000001,
+            "FinalExam": 57.99999999999999
+          },
+          "weightedPercentages": {
+            "Homework": 2,
+            "Discussions": 16.8,
+            "FinalExam": 17.4
+          },
+          "finalPercentage": 75.8,
+          "finalGrade": "C"
+        },
+        {
+          "studentId": "10012",
+          "name": "Nancy Wright",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 30,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 22,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 24,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 20,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 44,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 22,
+            "Discussions": 80,
+            "FinalExam": 44
+          },
+          "weightedPercentages": {
+            "Homework": 8.8,
+            "Discussions": 24,
+            "FinalExam": 13.2
+          },
+          "finalPercentage": 86.8,
+          "finalGrade": "B"
+        },
+        {
+          "studentId": "10013",
+          "name": "Oscar Walker",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 76,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 44,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 8,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 6,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 88,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 44,
+            "Discussions": 24,
+            "FinalExam": 88
+          },
+          "weightedPercentages": {
+            "Homework": 17.6,
+            "Discussions": 7.2,
+            "FinalExam": 26.4
+          },
+          "finalPercentage": 91.2,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "10014",
+          "name": "Paula Young",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 4,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 30,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 10,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 10,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 79,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 30,
+            "Discussions": 40,
+            "FinalExam": 79
+          },
+          "weightedPercentages": {
+            "Homework": 12,
+            "Discussions": 12,
+            "FinalExam": 23.7
+          },
+          "finalPercentage": 61.3,
+          "finalGrade": "D"
+        },
+        {
+          "studentId": "10015",
+          "name": "Quinn Lee",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 72,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 25,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 13,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 10,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 34,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 25,
+            "Discussions": 40,
+            "FinalExam": 34
+          },
+          "weightedPercentages": {
+            "Homework": 10,
+            "Discussions": 12,
+            "FinalExam": 10.2
+          },
+          "finalPercentage": 76.6,
+          "finalGrade": "C"
+        },
+        {
+          "studentId": "10016",
+          "name": "Robert Scott",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 93,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 30,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 15,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 5,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 75,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 30,
+            "Discussions": 20,
+            "FinalExam": 75
+          },
+          "weightedPercentages": {
+            "Homework": 12,
+            "Discussions": 6,
+            "FinalExam": 22.5
+          },
+          "finalPercentage": 95.7,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "10017",
+          "name": "Samantha King",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 56,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 93,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 0,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 12,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 85,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 93,
+            "Discussions": 48,
+            "FinalExam": 85
+          },
+          "weightedPercentages": {
+            "Homework": 37.2,
+            "Discussions": 14.4,
+            "FinalExam": 25.5
+          },
+          "finalPercentage": 99.5,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "10018",
+          "name": "Timothy Allen",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 57,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 63,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 3,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 20,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 92,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 63,
+            "Discussions": 80,
+            "FinalExam": 92
+          },
+          "weightedPercentages": {
+            "Homework": 25.2,
+            "Discussions": 24,
+            "FinalExam": 27.6
+          },
+          "finalPercentage": 103.2,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "10019",
+          "name": "Uma Hall",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 31,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 41,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 9,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 11,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 54,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 41,
+            "Discussions": 44,
+            "FinalExam": 54
+          },
+          "weightedPercentages": {
+            "Homework": 16.4,
+            "Discussions": 13.2,
+            "FinalExam": 16.2
+          },
+          "finalPercentage": 69,
+          "finalGrade": "D"
+        },
+        {
+          "studentId": "10020",
+          "name": "Victor Adams",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 63,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 38,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 15,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 4,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 58,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 38,
+            "Discussions": 16,
+            "FinalExam": 57.99999999999999
+          },
+          "weightedPercentages": {
+            "Homework": 15.2,
+            "Discussions": 4.8,
+            "FinalExam": 17.4
+          },
+          "finalPercentage": 80.6,
+          "finalGrade": "B"
+        },
+        {
+          "studentId": "10021",
+          "name": "Wendy Baker",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 38,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 24,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 15,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 9,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 7,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 24,
+            "Discussions": 36,
+            "FinalExam": 7.000000000000001
+          },
+          "weightedPercentages": {
+            "Homework": 9.6,
+            "Discussions": 10.8,
+            "FinalExam": 2.1
+          },
+          "finalPercentage": 55.7,
+          "finalGrade": "F"
+        },
+        {
+          "studentId": "10022",
+          "name": "Xavier Mitchell",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 83,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 83,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 1,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 25,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 67,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 83,
+            "Discussions": 100,
+            "FinalExam": 67
+          },
+          "weightedPercentages": {
+            "Homework": 33.2,
+            "Discussions": 30,
+            "FinalExam": 20.1
+          },
+          "finalPercentage": 117.7,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "10023",
+          "name": "Yolanda Rivera",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 80,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 69,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 13,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 21,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 17,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 69,
+            "Discussions": 84,
+            "FinalExam": 17
+          },
+          "weightedPercentages": {
+            "Homework": 27.6,
+            "Discussions": 25.2,
+            "FinalExam": 5.1
+          },
+          "finalPercentage": 105.5,
+          "finalGrade": "A"
+        },
+        {
+          "studentId": "10024",
+          "name": "Zachary Lewis",
+          "components": [
+            {
+              "type": "Homework",
+              "component": "HW1",
+              "marks": 64,
+              "totalMarks": 100
+            },
+            {
+              "type": "Homework",
+              "component": "HW2",
+              "marks": 24,
+              "totalMarks": 100
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 1",
+              "marks": 24,
+              "totalMarks": 25
+            },
+            {
+              "type": "Discussions",
+              "component": "Discussion 2",
+              "marks": 6,
+              "totalMarks": 25
+            },
+            {
+              "type": "FinalExam",
+              "component": "Final",
+              "marks": 71,
+              "totalMarks": 100
+            }
+          ],
+          "typePercentages": {
+            "Homework": 24,
+            "Discussions": 24,
+            "FinalExam": 71
+          },
+          "weightedPercentages": {
+            "Homework": 9.6,
+            "Discussions": 7.2,
+            "FinalExam": 21.3
+          },
+          "finalPercentage": 92.5,
+          "finalGrade": "A"
+        }
+      ]
+    }
+  ]
+}
